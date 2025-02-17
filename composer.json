@@ -13,14 +13,14 @@
     "homepage": "https://github.com/sammyjo20",
     "require": {
         "php": "^8.2",
-        "illuminate/http": "^11.0",
+        "illuminate/http": "^11.0|^12.0",
         "saloonphp/saloon": "^3.1"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.5",
-        "orchestra/testbench": "^9.0",
-        "pestphp/pest": "^2.34",
-        "phpstan/phpstan": "^1.9",
+        "orchestra/testbench": "^9.0|^10.0",
+        "pestphp/pest": "^2.34|^3.7",
+        "phpstan/phpstan": "^1.9|^2.1",
         "spatie/ray": "^1.33"
     },
     "minimum-stability": "stable",
