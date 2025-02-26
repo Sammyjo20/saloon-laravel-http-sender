@@ -17,7 +17,7 @@ class HttpPendingRequest extends PendingRequest
      *
      * @param array<int, callable> $middleware
      */
-    public function __construct(Factory $factory = null, array $middleware = [])
+    public function __construct(?Factory $factory = null, array $middleware = [])
     {
         parent::__construct($factory, $middleware);
 
